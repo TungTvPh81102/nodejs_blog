@@ -1,0 +1,5 @@
+// Khởi tạo dự án
+B1: npm init 
+B2: npm install express - khởi tạo thư viên express
+
+// Cài đặt nodemon : npm i nodemon --save-dev 
