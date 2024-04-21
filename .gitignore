@@ -1,2 +1,5 @@
 .vscode
+.fpoly
+doc.text
 node_modules/
+src/public/css/

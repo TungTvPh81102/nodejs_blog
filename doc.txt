@@ -3,3 +3,9 @@ B1: npm init
 B2: npm install express - khởi tạo thư viên express
 
 // Cài đặt nodemon : npm i nodemon --save-dev 
+
+// Cài thư viện Morgan để logger request được gửi lên node sever  npm i morgan --save-dev
+
+// Thư viện (template engines) handlebars : npm i handlebars --save-dev
+
+// npm run watch khởi chạy scss
