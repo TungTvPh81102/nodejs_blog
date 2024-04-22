@@ -9,3 +9,8 @@ B2: npm install express - khởi tạo thư viên express
 // Thư viện (template engines) handlebars : npm i handlebars --save-dev
 
 // npm run watch khởi chạy scss
+
+
+// Tải trang lần đầu trình duyệt sẽ trả về code 200, nếu ko có gì thay đổi code 300 not modified
+
+// JS lên dùng nháy đơn để xử lý chuỗi
