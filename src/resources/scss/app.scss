@@ -1,9 +1,24 @@
-@import 'variables';
+@import "variables";
 
 h1 {
-    color: $red-color;
+  color: $red-color;
 }
 
 h2 {
-    color: gold;
+  color: gold;
+}
+
+.card-course-item {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+
+.checkbox-select-all-options {
+  width: 160px;
+  margin: 0 10px;
 }

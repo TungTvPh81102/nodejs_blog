@@ -1,0 +1,48 @@
+<div class="mt-4">
+  <h3>Đăng khóa học</h3>
+  <form action="/courses/store" method="post">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Tên khóa học</label>
+      <input
+        name="name"
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Tên khóa học"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Mô tả khóa học</label>
+      <input
+        name="description"
+        type="text"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Mô tả khóa học"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Video ID</label>
+      <input
+        name="videoId"
+        type="text"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Video ID"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Trình độ</label>
+      <input
+        name="level"
+        type="text"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Trình độ"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm khóa học</button>
+  </form>
+</div>
